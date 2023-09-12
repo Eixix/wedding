@@ -19,10 +19,6 @@ export default {
   }),
 
   mounted() {
-    if (window.screen.width === 5120 && window.navigator.userAgent.toLowerCase().includes('win')) {
-      this.bestManMode = true
-    }
-
     document.body.addEventListener('keydown', (e) => {
       if (e.key === 't') {
         this.bestManMode = !this.bestManMode
