@@ -1,9 +1,11 @@
 @import './base.css';
 
-body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+html {
+  margin: 0;
+  overflow: hidden !important;
+}
+
+main {
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
